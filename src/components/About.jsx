@@ -10,11 +10,11 @@ const About = () => {
             </p>
         </div>
 
-        <p className='text-lg md:text-2xl mt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsum libero fugiat laudantium odio necessitatibus impedit alias molestiae aut, nulla tempore veniam. Et totam nesciunt aut, eius magni praesentium voluptatibus quia eum commodi architecto est dolore! Libero natus, laboriosam deleniti sunt, voluptate sit nam voluptatum dolor vel, dignissimos maiores dolores.</p>
+        <p className='text-lg md:text-2xl mt-10'>Hi, I'm Rohit Peswani, a passionate web developer with expertise in HTML, CSS, JavaScript, React, MongoDB, Node.js, Express, and TailwindCSS. I graduated from Silver Oak University with a BCA, earning a 9.59 CGPA. My education provided a solid foundation for my web development career.</p>
 
         <br />
 
-        <p className='text-lg md:text-2xl mt-10'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias ducimus, fugit facilis minima nulla libero. Deserunt eum dolores repudiandae autem eveniet rerum culpa et beatae quos facilis! Officiis voluptate cum natus expedita impedit, sed cupiditate nobis illum magnam atque dolore ipsum voluptatem consequuntur quibusdam mollitia modi suscipit illo eaque alias.</p>
+        <p className='text-lg md:text-2xl mt-10'>I have three months of experience as a ReactJS intern at Bhaskarcharya Institute of Space Applications and Geo-informatics, where I worked on an AI-based learning management system project. This experience honed my skills and deepened my knowledge, enabling me to create innovative web solutions.</p>
       </div>
     </div>
   );

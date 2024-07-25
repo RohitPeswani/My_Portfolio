@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/rohit-peswani-0b1476284",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: "#",
+      href: "https://github.com/RohitPeswani",
     },
     {
       id: 3,
@@ -31,23 +31,24 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "#",
+      href: "mailto:rohitpeswani28@gmail.com",
     },
     {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Resume <BsFillPersonLinesFill size={30}  />
         </>
       ),
-      href: "#",
+      href: "/Resume/Rohit_Peswani_Resume.pdf",
       style: "rounded-br-md",
+      download:true
     },
   ];
   return (
     <div className="hidden lg:block fixed top-[37%] overflow-hidden">
       <ul className="flex flex-col">
-        {links.map(({ id, child, href, style }) => {
+        {links.map(({ id, child, href, style, download }) => {
           return (
             <li
               className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] bg-gray-500 text-white duration-300 hover:rounded-md ${style}`}
@@ -56,6 +57,7 @@ const SocialLinks = () => {
               <a
                 href={href}
                 className="w-full flex justify-between items-center"
+                download={download}
               >
                 {child}
               </a>
